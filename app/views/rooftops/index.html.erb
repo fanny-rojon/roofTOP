@@ -1,3 +1,6 @@
+<% content_for(:title) do %>
+  All rooftops
+<% end %>
 <% @rooftops.each do |rooftop| %>
   <h2><%= rooftop.name %></h2>
   <p><%= rooftop.description %></p>

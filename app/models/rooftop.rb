@@ -1,0 +1,2 @@
+class Rooftop < ApplicationRecord
+end

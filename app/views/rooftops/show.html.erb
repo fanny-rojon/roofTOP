@@ -1,0 +1,7 @@
+<h2><%= @rooftop.name %></h2>
+<p><%= @rooftop.description %></p>
+
+<%= link_to "Delete", rooftop_path(@rooftop),
+      method: :delete,
+      data: { confirm: "Are you sure?" } %>
+

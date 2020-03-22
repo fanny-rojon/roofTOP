@@ -1,7 +1,18 @@
 <% content_for(:title) do %>
   All rooftops
 <% end %>
-<% @rooftops.each do |rooftop| %>
-  <h2><%= rooftop.name %></h2>
-  <p><%= rooftop.description %></p>
-<% end %>
+
+<div class=”container”>
+  <div class="cards">
+    <div class=”row”>
+      <% @rooftops.each do |r| %>
+          <div class="col-xs-12 col-sm-3">
+            <%= render "card", rooftop: r %>
+          </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="map">
+
+  </div>
+</div>

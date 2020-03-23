@@ -3,16 +3,16 @@
 <% end %>
 
 <div class=”container”>
-  <div class="cards">
-    <div class=”row”>
-      <% @rooftops.each do |r| %>
-          <div class="col-xs-12 col-sm-3">
-            <%= render "card", rooftop: r %>
-          </div>
-      <% end %>
-    </div>
+  <div class=”row”>
+    <% @rooftops.each do |r| %>
+        <div class="col-4">
+          <div class="cards cards-sm my-4">
+          <%= render "card", rooftop: r %>
+        </div>
+      </div>
+    <% end %>
   </div>
-  <div class="map">
+</div>
+<div class="map">
 
-  </div>
 </div>

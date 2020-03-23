@@ -7,6 +7,17 @@
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin: 10px;
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  p {
+    font-size: 12px;
+    opacity: .7;
+    margin: 0;
+  }
 }
 
 .card-rooftop > img {
@@ -14,19 +25,6 @@
   width: 100%;
   object-fit: cover;
 }
-
-.card-rooftop h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.card-rooftop p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
-}
-
 .card-rooftop .card-rooftop-infos {
   padding: 16px;
   display: flex;
